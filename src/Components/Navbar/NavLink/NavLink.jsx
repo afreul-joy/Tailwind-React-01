@@ -1,11 +1,15 @@
-import React from 'react';
+import React from "react";
 
-const navLink = ({route}) => {
-    return (
-        <>
-            <li> <a href={route.path}> {route.name} </a> </li>
-        </>
-    );
+const navLink = ({ route }) => {
+  return (
+    <>
+      <li className="mr-2">
+       <a href={route.path}> {route.name} </a>{" "}
+      </li>
+    </>
+  );
 };
 
 export default navLink;
+
+
